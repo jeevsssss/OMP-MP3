@@ -10,7 +10,7 @@ function DefaultLayout({children}) {
          <div className="header flex justify-between p-5 shadow items-center">
              <h1 className='text-3xl ml-7 font-bold cursor-pointer' onClick={()=>{
                     navigate('/')
-             }}><b className='text-primary'>SHEY</b> <b className='text-secondary'>MUSIC</b></h1>
+             }}><b className='text-primary'>OMP-</b> <b className='text-secondary'>MP3</b></h1>
              <div className='flex items-center gap-2'>
                 <h1 className='text-xl'>{user?.name.toUpperCase()}</h1>
                 <i className="ri-logout-circle-r-line text-xl cursor-pointer" onClick={()=>{
